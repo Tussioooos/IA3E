@@ -2,41 +2,42 @@ const caixaPrincipal = document.querySelector('.caixa-principal');
 const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
 const caixaResultado = document.querySelector('.caixa-resultado');
+const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
-        enunciado: "Você é a favor da IA em diversos trabalhos",
+        enunciado: "Vocẽ acha que o COI está errado",
         alternativas: [{
             texto: "Sim",
-            afirmação: "Afirmação da alternativa 1"
+            afirmação: "Sim, não tem sentido o esporte mais praticado não ser olímpico"
         },
         {
             texto: "Não",
-            afirmação: "Afirmação da alternativa"
+            afirmação: "O COI está correto e o futsal não tem o direito de ser olímpico"
         }
         ]
     },
     {
-        enunciado: "Você acha que a IA pode dominar o mundo",
+        enunciado: "Você acha que o esporte pode ser mais valorizado se tornando olímpico",
         alternativas: [{
-            texto: "Quem sabe...",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Sim, se tornara mais valorizado",
+            afirmação: "sim será por causa da visagem do esporte"
         },
         {
-            texto:"Talvez",
-            afirmação:"Afirmação da alternativa 2"
+            texto:"Não se tornara mais valorizado",
+            afirmação:"o futsal não tem porque ser valorizado"
         }
         ]
     },
     {
-        enunciado: "você usa a inteligencia no dia a dia",
+        enunciado: "A falta de concenso da FIFA e o COI prejudica o futsal",
         alternativas: [{
             texto: "Sim",
-            afirmação: "Afirmação da alternativa 1"
+            afirmação: "Pois a copa do mundo poderia ser um ano após as olímpiadas e o esporte se tornara olímpico, para não bater datas"
         },
         {
             texto: "Não",
-            afirmação: "Afirmação da alternativa"
+            afirmação: "A copa do mundo é mais importante que as olimpiadas"
         }
         ]
     }
